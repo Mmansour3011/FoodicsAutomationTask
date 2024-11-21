@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+    <test name="Test">
+        <classes>
+            <!-- Specify the fully qualified class name for your Cucumber test runner -->
+            <class name="runner.TestRunner"/>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg" />
+    </listeners>
+</suite>
